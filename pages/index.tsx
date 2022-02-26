@@ -69,16 +69,16 @@ const Home: NextPage = () => {
           
           <section className="flex items-center justify-center mt-20">
             <div className="p-12 grid grid-cols-3 gap-5 bg-blue-600 rounded-lg shadow-lg w-full">
-              <div className="flex">
+              <div className="flex items-center gap-5">
                 <FaAward className="text-[100px] text-white"/>
-                <div>
+                <div className="">
                   <h3 className="text-xl font-semibold text-white">Tilte 1</h3>
                   <p className="text-white font-light">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorum modi harum vitae quia numquam ab temporibus quibusdam quod quaerat.
                   </p>
                 </div>
               </div>
-              <div className="flex">
+              <div className="flex items-center gap-5">
                 <FaClock className="text-[100px] text-white" />
                 <div>
                   <h3 className="text-white font-semibold text-xl">Tilte 1</h3>
@@ -87,15 +87,67 @@ const Home: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex">
+              <div className="flex items-center gap-5">
                 <FaMoneyBillWave className="text-[100px] text-white" />
                 <div>
-                  <h3>Tilte 1</h3>
-                  <p>
+                  <h3 className="text-white font-semibold text-xl">Tilte 1</h3>
+                  <p className="text-white font-light">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorum modi harum vitae quia numquam ab temporibus quibusdam quod quaerat.
                   </p>
                 </div>
               </div>
+            </div>
+          </section>
+
+          <section id="layanan" className="mt-20 flex flex-col gap-20">
+            <div className="flex flex-col gap-5 items-start">
+              <h1 className="text-2xl font-bold">Layanan</h1>
+              <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, excepturi?</p>
+            </div>
+
+            <div className="grid grid-cols-2 gap-5">
+              <div className="bg-gray-200 w-full h-full rounded-xl">
+              </div>
+
+              <div className="flex flex-col gap-5">
+                <h3 className="font-semibold text-xl">Web Development</h3>
+                <p className="font-light">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non fugiat quibusdam odit optio necessitatibus numquam quasi totam amet, soluta nam repellat corporis ipsum recusandae, labore eius perferendis accusamus dicta eum perspiciatis obcaecati libero et accusantium ducimus voluptatem! Numquam magni cupiditate provident beatae dolor assumenda sit voluptates recusandae delectus, nihil dolorem?
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-5">
+              <div className="flex flex-col gap-5">
+                <h3 className="font-semibold text-xl">Mobile Development</h3>
+                <p className="font-light">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non fugiat quibusdam odit optio necessitatibus numquam quasi totam amet, soluta nam repellat corporis ipsum recusandae, labore eius perferendis accusamus dicta eum perspiciatis obcaecati libero et accusantium ducimus voluptatem! Numquam magni cupiditate provident beatae dolor assumenda sit voluptates recusandae delectus, nihil dolorem?
+                </p>
+              </div>
+
+              <div className="bg-gray-200 w-full h-full rounded-xl">
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-5">
+              <div className="bg-gray-200 w-full h-full rounded-xl">
+              </div>
+
+              <div className="flex flex-col gap-5">
+                <h3 className="font-semibold text-xl">UI/UX Designer</h3>
+                <p className="font-light">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non fugiat quibusdam odit optio necessitatibus numquam quasi totam amet, soluta nam repellat corporis ipsum recusandae, labore eius perferendis accusamus dicta eum perspiciatis obcaecati libero et accusantium ducimus voluptatem! Numquam magni cupiditate provident beatae dolor assumenda sit voluptates recusandae delectus, nihil dolorem?
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="projects" className="flex flex-col mt-20 gap-20">
+            <div className="flex flex-col gap-5 items-start">
+              <h1 className="text-2xl font-bold">Projects</h1>
+              <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, excepturi?</p>
+            </div>
+
+            <div className="bg-blue-600 rounded-lg shadow-lg p-12">
+              test
             </div>
           </section>
         </main>
